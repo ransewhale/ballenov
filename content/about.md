@@ -2,7 +2,7 @@
 title: "自己紹介等"
 date: 2021-10-10T01:06:52+09:00
 slug: "about"
-noComment: true
+noComments: true
 draft: false
 menu:
     main:
