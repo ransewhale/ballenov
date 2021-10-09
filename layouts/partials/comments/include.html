@@ -1,0 +1,3 @@
+{{ if and .Site.Params.comments.enabled .Params.noComment (not .Params.noComment) }}
+    {{ partial (printf "comments/provider/%s" .Site.Params.comments.provider) . }}
+{{ end }}
