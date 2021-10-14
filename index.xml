@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ballenovの音ゲー日記</title><link>https://bit.andirnu.ml/</link><description>Recent content on ballenovの音ゲー日記</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 10 Oct 2021 01:06:52 +0900</lastBuildDate><atom:link href="https://bit.andirnu.ml/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://bit.andirnu.ml/posts/my-first-post/</link><pubDate>Sun, 10 Oct 2021 01:06:52 +0900</pubDate><guid>https://bit.andirnu.ml/posts/my-first-post/</guid><description>&lt;p>こんにちは。ballenovです。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ballenovの音ゲー日記</title><link>https://bit.andirnu.ml/</link><description>Recent content on ballenovの音ゲー日記</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Fri, 15 Oct 2021 00:24:30 +0900</lastBuildDate><atom:link href="https://bit.andirnu.ml/index.xml" rel="self" type="application/rss+xml"/><item><title>ハイパージャパネスク3(EX)をクリアしたい!</title><link>https://bit.andirnu.ml/posts/hyper-japanesque-3/</link><pubDate>Fri, 15 Oct 2021 00:24:30 +0900</pubDate><guid>https://bit.andirnu.ml/posts/hyper-japanesque-3/</guid><description>&lt;p>おはようございます。ballenovです。&lt;/p>
+&lt;p>今日はレベル46にあるハイパージャパネスク3(EX)について書きたいと思います。&lt;/p>
+&lt;h2 id="ハイパージャパネスク3ex-とは">ハイパージャパネスク3(EX) #とは&lt;/h2>
+&lt;p>まずハイパージャパネスク3(EX)を見ていただきましょう。&lt;/p>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/wSsGzlv7ccI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;p>動画を見れば分かるのですが，1:13ほどから1:25あたりまでBPMが半減し，その間低速を処理する必要があるという譜面です。&lt;/p>
+&lt;h2 id="サドプラが使えなさそう">サドプラが使えなさそう&lt;/h2>
+&lt;p>低速部分を見てみると，低速が終わるギリギリまで譜面が階段で埋め尽くされており，一見サドプラが使えなさそうに見えます。&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 50;
+flex-basis: 121px"
+>
+&lt;a href="https://bit.andirnu.ml/posts/hyper-japanesque-3/0.png" data-size="540x1068">
+&lt;img src="https://bit.andirnu.ml/posts/hyper-japanesque-3/0.png"
+width="540"
+height="1068"
+srcset="https://bit.andirnu.ml/posts/hyper-japanesque-3/0_hu1261bbd496cc0f7b5e221d2350872987_108514_480x0_resize_box_3.png 480w, https://bit.andirnu.ml/posts/hyper-japanesque-3/0_hu1261bbd496cc0f7b5e221d2350872987_108514_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="低速部分と再加速">
+&lt;/a>
+&lt;figcaption>低速部分と再加速&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="低速で残さないといけないのは4粒">低速で残さないといけないのは4粒&lt;/h2>
+&lt;p>ここで，低速でゲージをどの程度残せば勝てるのかを考えてみます。&lt;/p>
+&lt;p>低速終了後には277ノーツ降ってくるので，低速終了後に全部GREAT以上で繋げられるとすると，低速終了時点で残さなければいけないゲージは&lt;/p>
+&lt;p>$$17-2\cdot 277\cdot\dfrac{24}{1024} = 4.015625$$&lt;/p>
+&lt;p>より最低4粒&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>となります。&lt;/p>
+&lt;h2 id="捨てノーツをうまく作る">捨てノーツをうまく作る&lt;/h2>
+&lt;p>サドプラを使えば低速部分をミスなく処理でき，サドプラを使って50小節目に入ったときにはフルゲージであるとします。その時，下の画像の黒枠で囲まれたところを &lt;strong>すべて無視して&lt;/strong> サドプラを外すことを考えます。&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 96;
+flex-basis: 231px"
+>
+&lt;a href="https://bit.andirnu.ml/posts/hyper-japanesque-3/1.png" data-size="798x826">
+&lt;img src="https://bit.andirnu.ml/posts/hyper-japanesque-3/1.png"
+width="798"
+height="826"
+srcset="https://bit.andirnu.ml/posts/hyper-japanesque-3/1_hu6b3c49b84a9145f858d6d793238415bb_363969_480x0_resize_box_3.png 480w, https://bit.andirnu.ml/posts/hyper-japanesque-3/1_hu6b3c49b84a9145f858d6d793238415bb_363969_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="捨てる部分">
+&lt;/a>
+&lt;figcaption>捨てる部分&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>このとき，残るゲージは$$24-8\cdot51\cdot\dfrac{24}{1024} = 14.4375$$より14粒となります。4粒残せばクリアのチャンスがあることを考えると充分すぎるほどのゲージが残ります。&lt;/p>
+&lt;h2 id="実践">実践&lt;/h2>
+&lt;p>実際にやってみた結果です。&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">今日もハイパージャパネスク3をやってきてサドプラでの攻略法が確立したので近々記事にしたいと思います(？) &lt;a href="https://t.co/NAwY4K11PZ">pic.twitter.com/NAwY4K11PZ&lt;/a>&lt;/p>&amp;mdash; ばじぇのぶ (@ballenov_kpr) &lt;a href="https://twitter.com/ballenov_kpr/status/1447914990237671429?ref_src=twsrc%5Etfw">October 12, 2021&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>うまくクリアできることがわかります。&lt;/p>
+&lt;h2 id="補足-低速突入前にサドプラを付ける方法">補足: 低速突入前にサドプラを付ける方法&lt;/h2>
+&lt;p>低速地帯直前は比較的スカスカなので問題ないと思います。&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 107;
+flex-basis: 258px"
+>
+&lt;a href="https://bit.andirnu.ml/posts/hyper-japanesque-3/2.png" data-size="310x288">
+&lt;img src="https://bit.andirnu.ml/posts/hyper-japanesque-3/2.png"
+width="310"
+height="288"
+srcset="https://bit.andirnu.ml/posts/hyper-japanesque-3/2_hub53353cb7c9874b05fe82d5fcd742dc5_13491_480x0_resize_box_3.png 480w, https://bit.andirnu.ml/posts/hyper-japanesque-3/2_hub53353cb7c9874b05fe82d5fcd742dc5_13491_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="低速部分と再加速">
+&lt;/a>
+&lt;figcaption>低速部分と再加速&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>私が捨てたのは黒枠で囲んだ白2つですが，もしかするとその次の緑2つと赤1つの3ノーツを捨てたほうが視線リセットにもなっていいかもしれません。お好みでどうぞ。&lt;/p>
+&lt;h2 id="結論">結論&lt;/h2>
+&lt;p>人生は諦めないことが大事です。諦めることも大事ですが。&lt;/p>
+&lt;p>ハイパージャパネスク3(EX)がクリアできなくて困っている方はぜひこの方法を試してみてください!&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>実際には4粒ギリギリちょうどだと少し足りないです。内部値が171であるときゲージは$171\cdot\dfrac{24}{1024} = 4.0078125 &amp;lt; 4.015625$となります。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>My First Post</title><link>https://bit.andirnu.ml/posts/my-first-post/</link><pubDate>Sun, 10 Oct 2021 01:06:52 +0900</pubDate><guid>https://bit.andirnu.ml/posts/my-first-post/</guid><description>&lt;p>こんにちは。ballenovです。&lt;/p>
 &lt;p>今までは進捗管理等を&lt;a class="link" href="https://twpf.jp/ballenov_kpr" target="_blank" rel="noopener"
 >ツイフィール&lt;/a>の方にのせていたのですが，こちらに移していこうと思っています。&lt;/p>
 &lt;p>ついでにブログ等でいろいろ書いたりしたいと思います。&lt;/p>
