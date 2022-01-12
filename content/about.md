@@ -27,7 +27,7 @@ ballenovは「ばじぇのぶ」と読みます。ロシア語風に「バリェ
 - 45: 全埋め
 - 46: 187曲(9割)
 - 47: 60曲(3割)
-- 48: 6曲(ネオクラU，カラフルトイズ・ワンダーランド，asteer，戦乱絵巻，クラシック10，Dracophobia)
+- 48: 7曲(ネオクラU，カラフルトイズ・ワンダーランド，asteer，戦乱絵巻，クラシック10，Dracophobia，少女と時の花)
 - 49: 生きてる間に1曲でもクリアできたらいいな
 - 50: [A Place Dizzyingly High And Distant](https://youtu.be/ti14w7hoHXk)
 
